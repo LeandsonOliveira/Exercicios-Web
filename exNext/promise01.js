@@ -2,9 +2,7 @@ function primeiroElemento(array){
     return array[0]
 }
 
-function primeiraLetra(string){
-    return string[0]
-}
+const primeiraLetra = (string) => string[0]
 
 const letraMinuscula = letra => letra.toLowerCase()
 
